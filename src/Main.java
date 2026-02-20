@@ -1,10 +1,10 @@
 public class Main {
+
     public static void main(String[] args) {
 
-        System.out.println("==================================");
-        System.out.println("   WELCOME TO PALINDROME APP   ");
-        System.out.println("==================================");
-        System.out.println("UC1: Welcome module implemented.");
+        System.out.println("Welcome to the Palindrome Checker Management System");
+        System.out.println("Version : 1.0");
+        System.out.println("System initialized successfully.");
 
     }
 }
