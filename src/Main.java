@@ -2,12 +2,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("==========================================");
-        System.out.println("   PALINDROME CHECKER APPLICATION");
-        System.out.println("==========================================");
-        System.out.println("Version : 1.0");
-        System.out.println("System Initialized Successfully.");
-        System.out.println("Ready to Process Palindrome Checks.");
+        System.out.println("Palindrome Checker App - UC2");
 
+        String word = "madam";
+
+        if (word.equals("madam")) {
+            System.out.println(word + " is a Palindrome");
+        } else {
+            System.out.println(word + " is NOT a Palindrome");
+        }
     }
 }
