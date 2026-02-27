@@ -2,14 +2,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Palindrome Checker App - UC2");
+        String input = "level";
+        String reversed = "";
 
-        String word = "madam";
+        for (int i = input.length() - 1; i >= 0; i--) {
+            reversed += input.charAt(i);
+        }
 
-        if (word.equals("madam")) {
-            System.out.println(word + " is a Palindrome");
+        if (input.equals(reversed)) {
+            System.out.println("Palindrome");
         } else {
-            System.out.println(word + " is NOT a Palindrome");
+            System.out.println("Not Palindrome");
         }
     }
 }
