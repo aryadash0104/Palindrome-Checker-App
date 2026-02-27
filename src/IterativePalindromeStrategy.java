@@ -1,4 +1,4 @@
-public class SimplePalindromeStrategy implements PalindromeStrategy {
+public class IterativePalindromeStrategy implements PalindromeStrategy {
 
     @Override
     public boolean check(String input) {
@@ -7,11 +7,9 @@ public class SimplePalindromeStrategy implements PalindromeStrategy {
         int end = input.length() - 1;
 
         while (start < end) {
-
             if (input.charAt(start) != input.charAt(end)) {
                 return false;
             }
-
             start++;
             end--;
         }
