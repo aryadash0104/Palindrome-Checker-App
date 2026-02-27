@@ -2,7 +2,7 @@ public class UseCase11PalindromeCheckerApp {
 
     public static void main(String[] args) {
 
-        String input = "level";
+        String input = "racecar";
 
         PalindromeService service = new PalindromeService();
 
